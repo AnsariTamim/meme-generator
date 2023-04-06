@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:  'Playfair Display', serif;
+  background-color: rgb(242, 243, 242);
+ 
+}
+main{
+  margin-top: 10PX;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding :36px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    height: 65px;
+    background: linear-gradient(90deg, #672280 1.18%,#A626D3 100%);
+    color: rgb(7, 5, 5);
+    padding: 20px;
+}
+
+.header-img{
+  height: 100%;
+  margin-right :6px ;
+  
+}
+.header-title{
+  font-size: 20px;
+  margin-right:auto;
+
+}
+.header-text{
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.form{
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 17px;
+}
+.form-input{
+  border-radius: 5px;
+  border: 1px solid #87878a;
+  text-indent: 5px;
+}
+.form-btn{
+  grid-column: 1 / -1;
+  background: linear-gradient(90deg, #672280 1.8%,#A626D3 100%);
+  color : white;
+  font-size : 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.form-btn:hover{
+  color: #4a0264;
+}
+
+.meme-img{
+ max-width: 100%;
+}
