@@ -26,7 +26,7 @@ function App() {
        </div> */}
       <Header/>
       <Meme/>
-      <SignUp/>
+      {/* <SignUp/> */}
    
   </div>
   );
